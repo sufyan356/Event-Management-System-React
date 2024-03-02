@@ -1,0 +1,80 @@
+.Footer{
+    background-color:#632424;
+    max-height: 15rem;
+    width: 100%!important;
+    margin-top: 2rem;
+    color: white;
+}
+.Footer .socialIcons{
+    display: flex;
+    width: 20%!important;
+    height: 4.5rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+
+@media(max-width:500px){
+    .Footer .socialIcons{
+        display: flex;
+        width: 80%!important;
+        height: 4.5rem;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} 
+
+.section {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media (max-width: 500px) {
+    .section {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+   
+.Footer .FooterInner{
+    min-height: 5.5rem!important;
+    width: 100%!important;
+    display: flex!important;
+    align-items:flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+}
+.socialIcons div{
+    padding: 0.3rem;
+    border-radius: 100%;
+    cursor: pointer;
+    text-decoration: none!important;
+}
+.socialIcons .github{
+    color: white;
+    background-color:rgb(26, 25, 25);
+}
+.socialIcons .website{
+    color: white;
+    background-color:peru;
+}
+
+.socialIcons .linkedin{
+    color: white;
+    background-color: blue;
+}
+.present{
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.8;
+}
+
+.presentName{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}

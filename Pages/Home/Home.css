@@ -1,0 +1,252 @@
+
+.home-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    overflow-x: hidden;
+
+  }
+  .sliderCustom{
+    opacity: 0.9;
+  }
+
+  .registeration{
+    border: 1px solid  #F26418;
+    padding: 1rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .registeration:hover{
+    cursor: pointer;
+    background-color: #F26418;
+    color: white;
+    border: 1px solid white!important;
+  }
+ 
+
+  .overlay-text h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    opacity: 1;
+  }
+  .mainOverlay{
+    font-size: 3rem!important;
+  }
+  .paraMainOverlay{
+    font-size: 1.5rem!important;
+
+  }
+  .leftBoxCol{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+  }
+  .leftBoxPara{
+    line-height: 2rem;
+     padding: 1rem;
+     width: 70%;
+     margin-left: auto;
+
+
+  }
+  .rightBoxPara{
+    line-height: 2rem;
+    padding: 1rem;
+    width: 70%;
+
+  }
+  .leftBoxSpan,
+  .rightBoxSpan{
+    display: inline-block;
+    font-size: 0.8rem;
+    width: 70%!important;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    line-height: 2rem;
+}
+.leftBoxSpan{
+  margin-top: 2rem;
+}
+.AllFieldsSlider{
+    /* border: 1px solid red; */
+    cursor: pointer;
+    border-radius: 1.5rem;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+  
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+
+
+.leftBox{
+  height: 86vh;
+  background-color: #181717;
+  color: white;
+  padding: 1rem;
+}
+.rightBox{
+  height: 86vh;
+  background-color: #F26418;
+  color: white;
+  padding: 1rem;
+}
+
+  .carouselStyle{
+    
+    border:"10px solid red"!important
+
+  }
+
+  @media(max-width:991px){
+    .carouselStyle{
+      width: '100%';
+      color: '#fff';
+      text-align: 'center';
+      background: '#364d79';
+      margin-left: "auto";
+      margin-right: "auto";
+      object-fit: "cover";
+    }
+}
+
+@media(max-width:575px){
+
+  .dateContainer > span{
+    padding: 0 !important;
+    text-align: center!important;
+    font-size: 1rem;
+  }
+  .timeText{
+    font-size: 0.5rem!important;
+    font-weight: 1000;
+  }
+}
+
+
+/* ADMIN TABLE COMP  */
+.warningMsg{
+    border: 2px dotted rgb(224, 144, 144)!important;
+}
+
+  /* CARDS  */
+
+.dateContainer{
+    display: flex!important;
+    flex-direction: column!important;
+    gap: 0.2rem;
+    width: 25%;
+}
+.days,
+.hours,
+.mins,
+.secs{
+    background-color: #F26519!important;
+    color: white!important;
+}
+.cardsContainer{
+    width: 100%!important;
+}
+.dateContainerParent{
+    display: flex!important;
+}
+.dateHoursContainer{
+    display: flex!important;
+    gap: 2rem;
+    
+}
+.dateHoursContainer > span{
+    font-size: 0.5rem;
+}
+  .cardsCustom{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out; 
+  }
+
+ .registerBtn{
+  width: 100%!important;
+  /* margin-top: 0.3rem; */
+  background-color: #171D18!important;
+  border: 1px solid  #171D18!important;
+  color: white;
+  padding: 0rem!important;
+ }
+ .registerLink{
+  text-decoration: none!important;
+  color: black;
+ }
+ 
+
+ .registerBtn:active,
+ .registerBtn:focus,
+ .registerBtn:hover{
+  width: 100%!important;
+
+  /* margin-top: 0.5rem; */
+  background-color:#F26418!important;
+  border: 1px solid  #F26418!important;
+  color: white!important;
+  padding: 0rem!important;
+}
+
+.registerLink:hover{
+  text-decoration: none!important;
+  color: white!important;
+ }
+
+ 
+
+ .registerBtnContainer{
+  width: 80%!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+ }
+  .cardsCustom{
+    max-width: 80%!important;
+  }
+  .cardsStartDate{
+    margin: 0!important;
+  }
+  .eventdetailsBtn{
+    background-color: #60202E!important;
+    color: white!important;
+    border: 1px solid  #60202E!important;
+    width: 100%!important;
+    margin-top: 0.8rem;
+    padding: 0!important;
+
+  }
+  .eventdetailsBtn:active,
+  .eventdetailsBtn:focus,
+  .eventdetailsBtn:hover{
+    background-color: #12924F!important;
+    border: 1px solid  #12924F!important;
+
+    color: white!important;
+  }

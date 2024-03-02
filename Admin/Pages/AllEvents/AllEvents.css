@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.eventModalButton_Heading{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.addEventsBtn{
+    background-color: #212529!important;
+    color: white;
+    border: 1px solid black!important;
+}
+.addEventsBtn:hover,
+.addEventsBtn:active,
+.addEventsBtn:focus{
+    background-color: #F26519!important;
+    color: white;
+    border: 1px solid #F26519!important;
+}
+
+/* TABLE
+*/
+.tableContainer{
+    max-width: 100% !important;
+    height: 50vh !important;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adminSeeDetails{
+    text-decoration: none!important;
+    padding: 0!important;
+    padding-top: 5px!important;
+    text-align: center;
+    width: 100%!important;
+    height: 100%!important;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+/* WebKit (Chrome, Safari) */
+.tableContainer::-webkit-scrollbar {
+    width: 12px;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+
+}
+
+/* Firefox */
+.tableContainer {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f4f4f4;
+}
+@media(max-width:350px){
+    .eventModalButton_Heading{
+        display: flex!important;
+        flex-direction: column;
+       
+    }
+    .eventModalButton_Heading > h1{
+        font-size: 1rem!important;
+    }
+    .eventModalButton_Heading > div > button{
+        font-size: 0.8rem!important;
+
+    }
+
+
+    .addEventsBtn{
+        padding: 0!important;
+
+    }
+    .navbar-brand > img{
+        width: 80px!important;
+    }
+    table > thead,
+    table > tbody{
+        font-size: 0.8rem!important;
+    }
+}

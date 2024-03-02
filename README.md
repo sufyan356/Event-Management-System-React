@@ -1,1 +1,1 @@
-# Event-Management-System-React
+# Event-Management-System

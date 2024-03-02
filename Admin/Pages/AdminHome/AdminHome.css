@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cardBodyForAdminHome{
+    cursor: pointer;
+    border-radius: 1.5rem;
+    height: 10rem!important;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+}
+.AdminHomeColClass{
+  margin-top: 2rem;
+  margin-bottom: 5.8rem;
+}
+@media(max-width:991px){
+  .AdminHomeColClass{
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+  }
+}

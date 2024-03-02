@@ -1,0 +1,71 @@
+ /* EVENT DETAILS PAGE */
+
+  .leftBoxCardsDetails{
+    max-width: 100%!important;
+    height: 100vh!important;
+    overflow-y: auto;
+    background-color:#0C1B2E;
+    color: white;
+  }
+  .rightBoxCardsDetails{
+    max-width: 100%!important;
+    max-height: 100vh!important;
+    overflow: hidden!important;
+  }
+  
+  .rightBoxCardsDetails > img {
+    width: 100%;
+    object-fit: fill;
+    height:100vh;
+    display: block;
+    max-height: 100vh;
+  }
+
+  .detailsTitle{
+    border-bottom: 5px solid white;
+    width: fit-content;
+  }
+
+  .detailsDesc{
+    border-bottom: 5px dashed white;
+    width: fit-content;
+  }
+  
+  .navbar-collapse > div{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    max-height: 150px!important;
+  }
+
+  @media(max-width:580px){
+    .leftBoxCardsDetails{
+      max-width: 100%!important;
+      height: 50vh!important;
+      overflow-y: auto;
+      background-color:#0C1B2E;
+      color: white;
+    }
+    .rightBoxCardsDetails{
+      max-width: 100%!important;
+      max-height: 50vh!important;
+      overflow: hidden!important;
+    }
+    .rightBoxCardsDetails > img {
+      width: 100%;
+      object-fit: fill!important;
+      height:100vh;
+      display: block;
+      max-height: 100vh;
+    }
+    .detailsRow{
+      display: flex!important;
+      flex-direction: column-reverse;
+    }
+
+    .leftBoxCardsDetails{
+      margin-top: 2rem!important;
+    }
+  }
+  

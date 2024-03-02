@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rangePickerCustom{
+    border: 1px solid red!important;
+}
+.startEndDateContainer{
+    /* min-width: 100%!important; */
+    display: flex!important;
+    justify-content:space-around!important;
+    flex-wrap: wrap!important;
+}
+.modalBtnContainer{
+    width: 100%!important;
+    /* border: 1px solid red; */
+    display: flex!important;
+    justify-content: space-around;
+    align-items: center;
+}
+.modalBtnContainer > button{
+    width: 40%!important;
+    background-color: #F26519!important;
+    color: white;
+    border: 1px solid #F26519!important;
+}
+
+.modalBtnContainer > button:hover,
+.modalBtnContainer > button:active,
+.modalBtnContainer > button:focus{
+    background-color: grey!important;
+    color: white;
+    border: 1px solid #F26519!important;
+}
+
+.dateCustom{
+    /* border: 1px solid grey!important; */
+    opacity: 0.5;
+    cursor: pointer;
+}
+.dateCustom:active,
+.dateCustom:focus,
+.dateCustom:hover{
+    border: 1px solid blue!important;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.uploadEventsPictureBtnContainer,
+.uploadEventsPicture{
+    /* border: 1px solid red; */
+    width: 100%!important
+
+}
+
+.dateContainer{
+    display: flex!important;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 100%!important;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.selectCustom{
+    width: 100%!important;
+    height: 4rem;
+    border: 1px solid grey!important;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.modalSubmitbtn{
+    background-color: #F26519!important;
+    border:1px solid  #F26519!important;
+    color: white;
+}
+
+@media(max-width:500px){
+    .modalSubmitbtn{
+        width: 100%!important;
+    }
+}
+.modalCustomClass{
+    max-height: 70vh!important;
+    overflow-y: auto!important;
+    /* border: 1px solid red; */
+}
+
+  
