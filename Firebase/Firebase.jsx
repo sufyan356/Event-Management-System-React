@@ -4,15 +4,8 @@ import { initializeApp } from "firebase/app";
 import { getAuth , createUserWithEmailAndPassword , signInWithEmailAndPassword , onAuthStateChanged , signOut  } from "firebase/auth";
 import { collection, addDoc , getFirestore , doc, updateDoc , getDocs , getDoc , onSnapshot , deleteDoc  } from "firebase/firestore"; 
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+// firebaseConfig
 
-const firebaseConfig = {
-    apiKey: "AIzaSyBhJds05uVR4Ie4kMWXO5hCr9ecI0wu9pM",
-    authDomain: "event-organization-app-326d8.firebaseapp.com",
-    projectId: "event-organization-app-326d8",
-    storageBucket: "event-organization-app-326d8.appspot.com",
-    messagingSenderId: "1007334106258",
-    appId: "1:1007334106258:web:a6eb902bf7e1b3a055f24b"
-};
 
 
   const app = initializeApp(firebaseConfig);
